@@ -301,3 +301,30 @@ hr {
 }
 
 /*estilos del footer*/
+
+.footer {
+    display: flex;
+    padding: 30px 0;
+}
+
+.link {
+    width: 20%;
+}
+
+.link h3 {
+    color: #feffff;
+    margin-bottom: 20px;
+}
+
+.link a {
+    color: #747b8f;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link p {
+    color: #747b8f;
+    font-size: 16px;
+}
+
