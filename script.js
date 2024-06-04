@@ -1,5 +1,5 @@
 // slide del header 
-var swiper = new Swiper(".mySwiper-1", {
+var swiper1 = new Swiper(".mySwiper-1", {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -14,7 +14,7 @@ var swiper = new Swiper(".mySwiper-1", {
 });
 
 //slide de los productos
-var swiper = new Swiper(".mySwiper-2", {
+var swiper2 = new Swiper(".mySwiper-2", {
     slidesPerView: 3,
     spaceBetween: 30,
     loop: true,
@@ -22,7 +22,7 @@ var swiper = new Swiper(".mySwiper-2", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"
     },
-    breakpoints : {
+    breakpoints: {
         0: {
             slidesPerView: 1
         },
